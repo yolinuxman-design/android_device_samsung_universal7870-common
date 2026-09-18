@@ -276,4 +276,4 @@ PRODUCT_PACKAGES += \
 -include $(LOCAL_PATH)/vendor_prop.mk
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)
