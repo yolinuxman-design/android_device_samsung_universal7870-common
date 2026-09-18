@@ -215,8 +215,9 @@ PRODUCT_PACKAGES += \
     init.samsungexynos7870.usb.rc \
     init.vendor.rilchip.rc \
     init.vendor.rilcommon.rc \
-    wifi.rc \
-    ueventd.rc
+    wifi.samsungexynos7870.rc \
+    ueventd.samsungexynos7870.rc 
+
 
 # Recorder
 PRODUCT_PACKAGES += \
