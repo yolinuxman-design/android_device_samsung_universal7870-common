@@ -24,9 +24,10 @@ cc_library_shared {
         "liblog",
     ],
 
-    include_dirs: [
+        include_dirs: [
         "frameworks/av/include",
         "frameworks/av/media/libstagefright/include",
+        "frameworks/av/media/libstagefright/foundation/include",
         "frameworks/native/include/media/hardware",
         "frameworks/native/include/media/openmax",
         "frameworks/native/libs/arect/include",
