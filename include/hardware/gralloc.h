@@ -126,7 +126,8 @@ enum {
     GRALLOC_USAGE_HW_CAMERA_MASK        = 0x00060000U,
     /* mask for the software usage bit-mask */
     GRALLOC_USAGE_HW_MASK               = 0x00071F00U,
-
+    /* buffer will be used by the HW image encoder */
+    GRALLOC_USAGE_HW_IMAGE_ENCODER      = 0x00080000U,
     /* buffer will be used as a RenderScript Allocation */
     GRALLOC_USAGE_RENDERSCRIPT          = 0x00100000U,
 
