@@ -83,8 +83,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0-helper \
     android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.5-service \
-    libion_exynos \
-    Snap
+    libion_exynos 
 
 # Camera configurations
 PRODUCT_COPY_FILES += \
